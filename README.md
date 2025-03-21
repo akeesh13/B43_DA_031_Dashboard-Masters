@@ -8,11 +8,17 @@ This project analyzes **Netflix’s movies and TV shows dataset** to uncover ins
 ## 1️⃣ Project Steps  
 
 ### **📌 Step 1: Data Cleaning with Python (Pandas in Jupyter Notebook)**  
-- Used **Pandas** for:  
-  ✅ Handling missing values (filled IMDb ratings with median values)  
+- Used **Pandas** for:   
   ✅ Removing duplicate rows  
   ✅ Standardizing column names  
-  ✅ Converting `Release_Year` to a datetime format  
+  ✅Removed duplicate rows to ensure data consistency.
+  ✅Dropped the imdbID column as it was irrelevant to analysis.
+  ✅Removed rows with missing Movie_Title to maintain data integrity.
+  ✅Replaced null values in Genres with "Unknown" to avoid missing classifications.
+  ✅Replaced null values in IMDB_Rating and IMDB_Votes with 0 to prevent calculation errors.
+  ✅Split multiple genres in a single cell into separate rows to normalize genre classification.
+  ✅Split multiple countries in Available_Countries into separate rows for better regional analysis.
+  ✅Converted Release_Year to an integer format for accurate time-based analysis
 
 ---
 
