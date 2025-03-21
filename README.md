@@ -5,7 +5,7 @@ This project analyzes **Netflix’s movies and TV shows dataset** to uncover ins
 
 ---
 
-## ** 1️⃣ Project Steps**  
+## 1️⃣ Project Steps  
 
 ### **📌 Step 1: Data Cleaning with Python (Pandas in Jupyter Notebook)**  
 - Used **Pandas** for:  
@@ -98,7 +98,7 @@ CREATE TABLE Movies (
 
 ---
 
-## ** 2️⃣ Setup Instructions**  
+##  2️⃣ Setup Instructions  
 
 ### **📌 Step 1: Install Required Tools**
 - **Database:** Install [MySQL](https://dev.mysql.com/downloads/)  
@@ -128,7 +128,7 @@ CREATE TABLE Movies (
 
 ---
 
-## ** 3️⃣ Project Outcomes & Insights**  
+##  3️⃣ Project Outcomes & Insights  
 📊 **Most-Watched Genre:** **Drama** is the most-watched genre on Netflix.  
 🎬 **Highest Rated Genre:** **War** has the highest IMDb ratings despite fewer movies.  
 📈 **Most Releases:** **2022 had the highest number of shows released.**  
@@ -136,7 +136,7 @@ CREATE TABLE Movies (
 
 ---
 
-## **4️⃣ Future Improvements**  
+## 4️⃣ Future Improvements 
 🔹 Use **Machine Learning** to predict **popular movie trends**.  
 🔹 Add a **recommendation system** based on **viewer preferences**.  
 🔹 Expand analysis by including **user engagement data (likes, reviews, social media trends)**.  
