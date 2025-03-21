@@ -8,22 +8,20 @@ This project analyzes **Netflix’s movies and TV shows dataset** to uncover ins
 ## 1️⃣ Project Steps  
 
 ### **📌 Step 1: Data Cleaning with Python (Pandas in Jupyter Notebook)**  
-- Used **Pandas** for:   
-  ✅ Removing duplicate rows  
+- Used **Pandas** for:    
   ✅ Standardizing column names  
-  ✅Removed duplicate rows to ensure data consistency.                                                                      
-  ✅Dropped the imdbID column as it was irrelevant to analysis.                                       
-  ✅Removed rows with missing Movie_Title to maintain data integrity.                             
-  ✅Replaced null values in Genres with "Unknown" to avoid missing classifications.                                       
-  ✅Replaced null values in IMDB_Rating and IMDB_Votes with 0 to prevent calculation errors.                                     
-  ✅Split multiple genres in a single cell into separate rows to normalize genre classification.                                       
-  ✅Split multiple countries in Available_Countries into separate rows for better regional analysis.                                         
-  ✅Converted Release_Year to an integer format for accurate time-based analysis
-
+  ✅ **Removed duplicate rows** to ensure data consistency.  
+  ✅ **Dropped the `imdbID` column** as it was irrelevant to analysis.  
+  ✅ **Removed rows with missing `Movie_Title`** to maintain data integrity.  
+  ✅ **Replaced null values in `Genres` with `"Unknown"`** to avoid missing classifications.  
+  ✅ **Replaced null values in `IMDB_Rating` and `IMDB_Votes` with `0`** to prevent calculation errors.  
+  ✅ **Split multiple genres in a single cell into separate rows** to normalize genre classification.  
+  ✅ **Split multiple countries in `Available_Countries` into separate rows** for better regional analysis.  
+  ✅ **Converted `Release_Year` to an integer format** for accurate time-based analysis. 
 ---
 
 ### **📌 Step 2: SQL Integration in Jupyter Notebook**  
-- Connected **Python with MySQL** using `pymysql` & `SQLAlchemy`.  
+- Connected **Python with MySQL** using `SQLAlchemy`.  
 - Uploaded the cleaned dataset from Pandas to MySQL.  
 
 ```python
@@ -145,4 +143,4 @@ CREATE TABLE Movies (
 ## 4️⃣ Future Improvements 
 🔹 Use **Machine Learning** to predict **popular movie trends**.  
 🔹 Add a **recommendation system** based on **viewer preferences**.  
-🔹 Expand analysis by including **user engagement data (likes, reviews, social media trends)**.  
+🔹 Expand analysis by including **user engagement data (likes, reviews, social media trends,watch hour,watch number)**.  
